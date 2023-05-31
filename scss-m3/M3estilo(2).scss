@@ -1,0 +1,49 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+  
+  @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+ .email{
+    font-family:  'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color:  #04146c;
+}
+.p{
+    font-family:  'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color:  #04146c;
+}
+.R{
+    font-family:  'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color:  #04146c;
+}
+.B{
+    font-family:  'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    background-color:  #5974ff;
+}
+.M{
+    border: 1.5px solid #8a9af1;
+    
+}
+.L{
+    margin-left: 10%;
+}
+.R{
+    margin-right: 15%;
+}
+@media (max-width: 768px){
+    div{ flex-wrap: wrap;
+    justify-content: center;
+   
+    }
+    }
+    

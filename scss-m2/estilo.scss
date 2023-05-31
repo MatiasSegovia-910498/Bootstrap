@@ -1,0 +1,46 @@
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+  @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+  .title{
+    font-family: 'Mulish', sans-serif;
+    font-size: 4.1rem;
+    font-weight: 700;
+    color: #04146c;
+   }
+   .Sofia{
+    font-family: 'Mulish', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0a2ff1;
+   }
+   .subtitle{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #04146c;
+   }
+   .p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #04146c;
+    ;
+   }
+   .butom{
+    border: 1px solid #0a2ff1;
+   }
+   .borde1{
+    border-color: white;
+   }
+   @media (max-width: 992px){
+    div{ flex-wrap: wrap;
+    justify-content: center;
+    }      
+ }
+ @media (max-width: 768px){
+    div{ flex-wrap: wrap;
+    flex-direction: column;
+   image-rendering:auto ;
+  }
+}
